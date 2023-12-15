@@ -21,6 +21,6 @@ The schedule for the workshop is as follows:
 #| echo: false
 options(knitr.kable.NA = "")
 readxl::read_xlsx("mlb_schedule_2024.xlsx") |> 
-  dplyr::mutate(Topic = ifelse(!is.na(URL), glue::glue("[{Title}]({URL})"), Title), .keep = "unused") |> 
+  dplyr::mutate(Topic = ifelse(!is.na(Slides), glue::glue("[{Title}]({Slides})"), Title), .keep = "unused") |> 
   dplyr::relocate(Topic, .after = Date)
 ```
