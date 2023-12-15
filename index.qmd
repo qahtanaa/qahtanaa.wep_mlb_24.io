@@ -3,14 +3,6 @@ title: "Machine Learning for Beginners"
 format: 
   gfm:
     df-print: kable
-  html:
-    standalone: true
-    self-contained: true
-    toc: true
-    toc-depth: 2
-    number-depth: 1
-    number-sections: true
-    df-print: kable
 self-contained: true
 ---
 
