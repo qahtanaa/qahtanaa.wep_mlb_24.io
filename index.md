@@ -40,49 +40,37 @@ During the workshop, we will use [Google
 Colab](https://colab.research.google.com/) as our IDE. We will start by
 creating a new notebook.
 
-<div>
+## Checking the Python version and installing different versions
 
-> **Checking the Python version and installing different versions**
->
-> and checking the version of Python that is already installed. We run
-> the command:
->
->     !python --version
->
-> If we need to install a different version of Python (e.g. 3.7), we can
-> use:
->
->     !apt-get install python3.7
+and checking the version of Python that is already installed. We run the
+command:
 
-</div>
+    !python --version
 
-<div>
+If we need to install a different version of Python (e.g. 3.7), we can
+use:
 
-> **Installing more Libraries**
->
-> Most of the important libraries that we may need are already installed
-> in the Google Colab environment. However, if you would like to install
-> additional libraries, you can use the `pip` command. For example, to
-> install `py_stringmatching`, you can use the command:
->
->     !pip install py_stringmatching
+    !apt-get install python3.7
 
-</div>
+## Installing more Libraries
+
+Most of the important libraries that we may need are already installed
+in the Google Colab environment. However, if you would like to install
+additional libraries, you can use the `pip` command. For example, to
+install `py_stringmatching`, you can use the command:
+
+    !pip install py_stringmatching
 
 **Note:** when running system commands in Google colab, we use `!`
 before the command. This is common for running system commands in any
 notebook environment (you may also use the % symbol
 `%pip install py_stringmatching`).
 
-<div>
+## Running simple Python code
 
-> **Running simple Python code**
->
-> Run the following Python code and explain what the code is doing:
->
->     t, f = True, False
->     print(t and f) 
->     print(t or f)  
->     print(not t)   
+Run the following Python code and explain what the code is doing:
 
-</div>
+    t, f = True, False
+    print(t and f) 
+    print(t or f)  
+    print(not t)   
