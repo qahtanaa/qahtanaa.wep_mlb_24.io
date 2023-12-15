@@ -30,5 +30,7 @@ The schedule for the workshop is as follows:
 options(knitr.kable.NA = "")
 readxl::read_xlsx("mlb_schedule_2024.xlsx") |> 
   dplyr::mutate(Topic = ifelse(!is.na(Slides), glue::glue("[{Title}]({Slides})"), Title), .keep = "unused") |> 
-  dplyr::relocate(Topic, .after = Date)
+  dplyr::mutate(Exercises = ifelse(!is.na(ExURL), glue::glue("[{Exercises}]({ExURL})"), Exercises), .keep = "unused") |> 
+  dplyr::mutate(Solution = ifelse(!is.na(SolutionURL), glue::glue("[{Solution}]({SolutionURL})"), Solution), .keep = "unused") |> 
+  dplyr::relocate(Topic, Exercises, Solution, .after = Date)
 ```
