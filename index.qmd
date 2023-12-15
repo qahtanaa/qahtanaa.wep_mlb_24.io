@@ -34,7 +34,7 @@ During the workshop, we will use [Google Colab](https://colab.research.google.co
 
 #### Checking the Python version and installing different versions 
 
- and checking the version of Python that is already installed. We run the command:
+For checking the version of Python that is already installed, we run the command:
 
 ```
 !python --version

@@ -42,7 +42,7 @@ creating a new notebook.
 
 #### Checking the Python version and installing different versions
 
-and checking the version of Python that is already installed. We run the
+For checking the version of Python that is already installed, we run the
 command:
 
     !python --version
