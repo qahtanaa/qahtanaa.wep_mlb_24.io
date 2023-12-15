@@ -40,7 +40,7 @@ During the workshop, we will use [Google
 Colab](https://colab.research.google.com/) as our IDE. We will start by
 creating a new notebook.
 
-## Checking the Python version and installing different versions
+#### Checking the Python version and installing different versions
 
 and checking the version of Python that is already installed. We run the
 command:
@@ -52,7 +52,7 @@ use:
 
     !apt-get install python3.7
 
-## Installing more Libraries
+#### Installing more Libraries
 
 Most of the important libraries that we may need are already installed
 in the Google Colab environment. However, if you would like to install
@@ -66,7 +66,7 @@ before the command. This is common for running system commands in any
 notebook environment (you may also use the % symbol
 `%pip install py_stringmatching`).
 
-## Running simple Python code
+#### Running simple Python code
 
 Run the following Python code and explain what the code is doing:
 
