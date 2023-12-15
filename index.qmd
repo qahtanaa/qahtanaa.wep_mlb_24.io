@@ -1,0 +1,26 @@
+---
+title: "Machine Learning for Beginners"
+format: 
+  gfm:
+    df-print: kable
+self-contained: true
+---
+
+Machine Learning (ML) models are used in various applications, affecting societies directly or indirectly in daily life. The Machine learning (ML) field connects computer science and statistics, allowing computers to use collected data or past experience to solve unseen problems. It’s a must-have skill for every analyst and data scientist. It is also an important skill for anyone who wants to draw conclusions and make scientific suggestions based on collected raw data. A wide range of successful ML applications exist, including systems to predict customer behavior, support decision-making, recognize faces or spoken speech, optimize robot behavior, and extract knowledge from biological data. During this Workshop, participants will learn how to write and train ML models that can help in their field of study. Attendees will have the chance to learn the basics of Python and how to use it to build machine-learning models. In this Workshop, we will use Google Colab as our IDE, but students are free to use their favorite IDE.
+
+The materials on this website are [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) licensed.
+
+![cc](https://mirrors.creativecommons.org/presskit/icons/cc.svg) ![by](https://mirrors.creativecommons.org/presskit/icons/by.svg)
+
+
+## Schedule
+
+The schedule for the workshop is as follows:
+
+```{r}
+#| echo: false
+options(knitr.kable.NA = "")
+readxl::read_xlsx("course_schedule_2023.xlsx") |> 
+  dplyr::mutate(Topic = ifelse(!is.na(URL), glue::glue("[{Title}]({URL})"), Title), .keep = "unused") |> 
+  dplyr::relocate(Topic, .after = Date)
+```
