@@ -20,7 +20,7 @@ The schedule for the workshop is as follows:
 ```{r}
 #| echo: false
 options(knitr.kable.NA = "")
-readxl::read_xlsx("course_schedule_2023.xlsx") |> 
+readxl::read_xlsx("mlb_schedule_2024.xlsx") |> 
   dplyr::mutate(Topic = ifelse(!is.na(URL), glue::glue("[{Title}]({URL})"), Title), .keep = "unused") |> 
   dplyr::relocate(Topic, .after = Date)
 ```
