@@ -22,17 +22,35 @@ The materials on this website are
 ![cc](https://mirrors.creativecommons.org/presskit/icons/cc.svg)
 ![by](https://mirrors.creativecommons.org/presskit/icons/by.svg)
 
-## Schedule
+## Lectures
 
-The schedule for the workshop is as follows:
+| Day | Date       | Topic                                                                                                 |
+|----:|:-----------|:------------------------------------------------------------------------------------------------------|
+|   1 | 2024-01-07 | [Basics of Programming](https://qahtanaa.github.io/wep_mlb_24//lectures/day_1/WEP24_Day1_Basics.pdf)  |
+|   2 | 2024-01-08 | [Regression](https://qahtanaa.github.io/wep_mlb_24//lectures/day_2/WEP24_Day2_Regression.pdf)         |
+|   3 | 2024-01-09 | [Classification](https://qahtanaa.github.io/wep_mlb_24//lectures/day_3/WEP24_Day3_Classification.pdf) |
+|   4 | 2024-01-10 | [Clustering](https://qahtanaa.github.io/wep_mlb_24//lectures/day_4/WEP24_Day4_Clustering.pdf)         |
+|   5 | 2024-01-11 | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                       |
 
-| Day | Date       | Topic                                                                                                 | Exercises                                                          | Solution                                                              |
-|----:|:-----------|:------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|:----------------------------------------------------------------------|
-|   1 | 2024-01-07 | [Basics of Programming](https://qahtanaa.github.io/wep_mlb_24//lectures/day_1/WEP24_Day1_Basics.pdf)  | [Basics](https://qahtanaa.github.io/wep_mlb_24/inprogress)         | [Basics](https://qahtanaa.github.io/wep_mlb_24/solutionLater)         |
-|   2 | 2024-01-08 | [Regression](https://qahtanaa.github.io/wep_mlb_24//lectures/day_2/WEP24_Day2_Regression.pdf)         | [Regression](https://qahtanaa.github.io/wep_mlb_24/inprogress)     | [Regression](https://qahtanaa.github.io/wep_mlb_24/solutionLater)     |
-|   3 | 2024-01-09 | [Classification](https://qahtanaa.github.io/wep_mlb_24//lectures/day_3/WEP24_Day3_Classification.pdf) | [Classification](https://qahtanaa.github.io/wep_mlb_24/inprogress) | [Classification](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
-|   4 | 2024-01-10 | [Clustering](https://qahtanaa.github.io/wep_mlb_24//lectures/day_4/WEP24_Day4_Clustering.pdf)         | [Clustering](https://qahtanaa.github.io/wep_mlb_24/inprogress)     | [Clustering](https://qahtanaa.github.io/wep_mlb_24/solutionLater)     |
-|   5 | 2024-01-11 | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                       | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/inprogress)    | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/solutionLater)    |
+## Exercises
+
+| Day | Date       | Topic                 | HTML                                                                                    | Notebook                                                                                     |
+|----:|:-----------|:----------------------|:----------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|
+|   1 | 2024-01-07 | Basics of Programming | [HTML](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_1/WEP_2023_Day1_Basics.html) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_1/WEP_2023_Day1_Basics.ipynb) |
+|   2 | 2024-01-08 | Regression            | [HTML](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                | [Notebook](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                 |
+|   3 | 2024-01-09 | Classification        | [HTML](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                | [Notebook](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                 |
+|   4 | 2024-01-10 | Clustering            | [HTML](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                | [Notebook](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                 |
+|   5 | 2024-01-11 | Text Mining           | [HTML](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                | [Notebook](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                 |
+
+## Answers
+
+| Day | Date       | Topic                 | HTML                                                        | Notebook                                                        |
+|----:|:-----------|:----------------------|:------------------------------------------------------------|:----------------------------------------------------------------|
+|   1 | 2024-01-07 | Basics of Programming | [HTML](https://qahtanaa.github.io/wep_mlb_24/solutionLater) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
+|   2 | 2024-01-08 | Regression            | [HTML](https://qahtanaa.github.io/wep_mlb_24/solutionLater) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
+|   3 | 2024-01-09 | Classification        | [HTML](https://qahtanaa.github.io/wep_mlb_24/solutionLater) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
+|   4 | 2024-01-10 | Clustering            | [HTML](https://qahtanaa.github.io/wep_mlb_24/solutionLater) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
+|   5 | 2024-01-11 | Text Mining           | [HTML](https://qahtanaa.github.io/wep_mlb_24/solutionLater) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/solutionLater) |
 
 ## Google Colab
 

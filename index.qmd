@@ -14,18 +14,36 @@ The materials on this website are [CC-BY-4.0](https://creativecommons.org/licens
 ![by](https://mirrors.creativecommons.org/presskit/icons/by.svg)
 
 
-## Schedule
-
-The schedule for the workshop is as follows:
-
+## Lectures
 ```{r}
 #| echo: false
-options(knitr.kable.NA = "")
-readxl::read_xlsx("mlb_schedule_2024.xlsx") |> 
-  dplyr::mutate(Topic = ifelse(!is.na(Slides), glue::glue("[{Title}]({Slides})"), Title), .keep = "unused") |> 
-  dplyr::mutate(Exercises = ifelse(!is.na(ExURL), glue::glue("[{Exercises}]({ExURL})"), Exercises), .keep = "unused") |> 
-  dplyr::mutate(Solution = ifelse(!is.na(SolutionURL), glue::glue("[{Solution}]({SolutionURL})"), Solution), .keep = "unused") |> 
-  dplyr::relocate(Topic, Exercises, Solution, .after = Date)
+readxl::read_xlsx("mlb_24.xlsx") |>
+  dplyr::mutate(Topic = ifelse(!is.na(Slides), glue::glue("[{Title}]({Slides})"), Title), .keep = "unused") |>
+  dplyr::relocate(Topic, .after = Date) |> 
+  dplyr::filter(Type == "lecture") |>
+  dplyr::select(Day, Date, Topic)
+```
+
+## Exercises
+```{r}
+#| echo: false
+readxl::read_xlsx("mlb_24.xlsx") |>
+  dplyr::mutate(Topic = ifelse(!is.na(Title), glue::glue("{Title}"), Title), .keep = "unused") |>
+  dplyr::mutate(HTML = ifelse(!is.na(htmlURL), glue::glue("[{HTML}]({htmlURL})"), HTML), .keep = "unused") |>
+  dplyr::mutate(Notebook = ifelse(!is.na(NotebookURL), glue::glue("[{Notebook}]({NotebookURL})"), Notebook), .keep = "unused") |> 
+  dplyr::filter(Type == "exercise") |>
+  dplyr::select(Day, Date, Topic, HTML, Notebook)
+```
+
+## Answers
+```{r}
+#| echo: false
+readxl::read_xlsx("mlb_24.xlsx") |>
+  dplyr::mutate(Topic = ifelse(!is.na(Title), glue::glue("{Title}"), Title), .keep = "unused") |>
+  dplyr::mutate(HTML = ifelse(!is.na(htmlURL), glue::glue("[{HTML}]({htmlURL})"), HTML), .keep = "unused") |>
+  dplyr::mutate(Notebook = ifelse(!is.na(NotebookURL), glue::glue("[{Notebook}]({NotebookURL})"), Notebook), .keep = "unused") |> 
+  dplyr::filter(Type == "solution") |>
+  dplyr::select(Day, Date, Topic, HTML, Notebook)
 ```
 
 ## Google Colab
