@@ -24,13 +24,13 @@ The materials on this website are
 
 ## Lectures
 
-| Day | Date       | Topic                                                                                                 |
-|----:|:-----------|:------------------------------------------------------------------------------------------------------|
-|   1 | 2024-01-07 | [Basics of Programming](https://qahtanaa.github.io/wep_mlb_24//lectures/day_1/WEP24_Day1_Basics.pdf)  |
-|   2 | 2024-01-08 | [Regression](https://qahtanaa.github.io/wep_mlb_24//lectures/day_2/WEP24_Day2_Regression.pdf)         |
-|   3 | 2024-01-09 | [Classification](https://qahtanaa.github.io/wep_mlb_24//lectures/day_3/WEP24_Day3_Classification.pdf) |
-|   4 | 2024-01-10 | [Clustering](https://qahtanaa.github.io/wep_mlb_24//lectures/day_4/WEP24_Day4_Clustering.pdf)         |
-|   5 | 2024-01-11 | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                       |
+| Day | Date       | Topic                                                                                                |
+|----:|:-----------|:-----------------------------------------------------------------------------------------------------|
+|   1 | 2024-01-07 | [Basics of Programming](https://qahtanaa.github.io/wep_mlb_24/lectures/day_1/WEP24_Day1_Basics.pdf)  |
+|   2 | 2024-01-08 | [Regression](https://qahtanaa.github.io/wep_mlb_24/lectures/day_2/WEP24_Day2_Regression.pdf)         |
+|   3 | 2024-01-09 | [Classification](https://qahtanaa.github.io/wep_mlb_24/lectures/day_3/WEP24_Day3_Classification.pdf) |
+|   4 | 2024-01-10 | [Clustering](https://qahtanaa.github.io/wep_mlb_24/lectures/day_4/WEP24_Day4_Clustering.pdf)         |
+|   5 | 2024-01-11 | [Text Mining](https://qahtanaa.github.io/wep_mlb_24/lectures/day_5/WEP24_Day5_TextMining.pdf)        |
 
 ## Exercises
 
