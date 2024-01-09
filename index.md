@@ -40,7 +40,7 @@ The materials on this website are
 |   2 | 2024-01-08 | Regression            | [HTML](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_2/WEP_24_Day2_Regression.html)     | [Notebook](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_2/WEP_24_Day2_Regression.ipynb)     |
 |   3 | 2024-01-09 | Classification        | [HTML](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_3/WEP_24_Day3_Classification.html) | [Notebook](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_3/WEP_24_Day3_Classification.ipynb) |
 |   4 | 2024-01-10 | Clustering            | [HTML](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_4/WEP_24_Day4_Clustering.html)     | [Notebook](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_4/WEP_24_Day4_Clustering.ipynb)     |
-|   5 | 2024-01-11 | Text Mining           | [HTML](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                      | [Notebook](https://qahtanaa.github.io/wep_mlb_24/inprogress)                                       |
+|   5 | 2024-01-11 | Text Mining           | [HTML](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_5/WEP_24_Day5_TextMining.html)     | [Notebook](https://qahtanaa.github.io/wep_mlb_24/tutorials/day_5/WEP_24_Day5_TextMining.ipynb)     |
 
 ## Answers
 
