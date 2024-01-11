@@ -16,6 +16,10 @@ His current research focuses on data cleaning, data stream mining,
 time series analysis, algorithmic fairness and explainable machine learning."
   Author's home: "https://www.uu.nl/staff/AAAQahtan"
 logo: /assets/img/WEP_logo.png
+avatar: "/assets/img/Hakim.jpg"
+
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
 description: Material of ML for Beginners Workshop
 theme: jekyll-theme-minimal
 github:
