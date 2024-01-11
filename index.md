@@ -92,3 +92,27 @@ Run the following Python code and explain what the code is doing:
     print(t and f) 
     print(t or f)  
     print(not t)   
+
+------------------------------------------------------------------------
+
+## About the Speaker
+
+Abdulhakim Qahtan is an assistant professor at the Data Intensive
+Systems (DIS) Group, Information and Computing Sciences Department.
+Before joining Utrecht University, he worked as a Postdoctoral
+Researcher at Qatar Computing Research Institute (QCRI), Hamad Bin
+Khalifa University (HBKU), Qatar (2016-2019). Dr. Qahtan earned his PhD
+degree from the Machine Intelligence & kNowledge Engineering (MINE) Lab
+at King Abdullah University of Science and Technology (KAUST) (2016).  
+He completed his B.S. and M.S. in Computer Science at Cairo University,
+Egypt and King Fahd University of Petroleum and Minerals (KFUPM), Saudi
+Arabia, respectively. He worked as a teaching assistant at Taiz
+university, Yemen and a lecturer at KFUPM, Saudi Arabia.  
+His current research focuses on data cleaning, data stream mining, time
+series analysis, algorithmic fairness and explainable machine learning.
+
+Website: https://www.uu.nl/staff/AAAQahtan
+
+LinkedIn: https://www.linkedin.com/in/hakimqahtan/
+
+Email: a.a.a.qahtan(at)uu.nl
