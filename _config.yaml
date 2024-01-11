@@ -1,7 +1,7 @@
 title: WEP-2024 - ML for Beginners
 author: Dr. Hakim Qahtan
 navbar-links:
-  About Me: "Abdulhakim Qahtan is an assistant professor at the Data Intensive Systems (DIS) Group, 
+  About Me: Abdulhakim Qahtan is an assistant professor at the Data Intensive Systems (DIS) Group, 
 Information and Computing Sciences Department. 
 Before joining Utrecht University, he worked as a Postdoctoral Researcher 
 at Qatar Computing Research Institute (QCRI), 
@@ -14,14 +14,14 @@ respectively. He worked as a teaching assistant at Taiz university,
 Yemen and a lecturer at KFUPM, Saudi Arabia.  
 His current research focuses on data cleaning, data stream mining, 
 time series analysis, algorithmic fairness and explainable machine learning."
-  Author's home: "https://www.uu.nl/staff/AAAQahtan"
+  Author's home: https://www.uu.nl/staff/AAAQahtan
 logo: /assets/img/WEP_logo.png
-avatar: "/assets/img/Hakim.jpg"
+avatar: /assets/img/Hakim.jpg
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 description: Material of ML for Beginners Workshop
 theme: jekyll-theme-minimal
-url-pretty: "WEP_24_MLB"
+url-pretty: WEP_24_MLB
 github:
     is_project_page: false
