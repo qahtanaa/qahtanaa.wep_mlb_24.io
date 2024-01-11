@@ -22,5 +22,6 @@ avatar: "/assets/img/Hakim.jpg"
 round-avatar: true
 description: Material of ML for Beginners Workshop
 theme: jekyll-theme-minimal
+url-pretty: "WEP_24_MLB"
 github:
     is_project_page: false
